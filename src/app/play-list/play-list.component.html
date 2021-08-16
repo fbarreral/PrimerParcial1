@@ -1,0 +1,12 @@
+
+
+<div class="fond-playlist">
+  <div class="d-flex border border-secondary ms-5 mt-2" style="width: 40vh; cursor:pointer" *ngFor="let objeto of datos" (click)="sendRespuesta(objeto)">
+    <img src="{{objeto.url}}" class="card-img-top" style="width: 25vh; height:15vh">
+    <div class="fond-text">
+      <h5 class="title-des d-flex justify-content-center align-items-center" style="height: 10%;">{{objeto.titulo}}</h5>
+    </div>
+  </div>
+
+
+</div>
